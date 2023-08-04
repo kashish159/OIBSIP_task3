@@ -1,0 +1,40 @@
++<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEMPERATURE CONVERTER</title>
+    <link rel="stylesheet" href ="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Freehand&family=PT+Sans:ital@0;1&family=Playfair+Display:ital,wght@1,400;1,500;1,600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,200&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    
+    
+
+        <div class="header">
+          <h1 class="heading">Temperature Converter (C/F)</h1>
+          <div class="temp-container">
+
+            <input onchange="computeTemp(event)" type="number" name="Celsius" id="Celsius" class="Celsius" placeholder="Celsius"/>
+            <span class ="icon">&#8451</span> <br>
+          </div>
+          <div class="temp-container">
+            
+            <input onchange="computeTemp(event)" type="number" name="Fahrenheit" id="Fahrenheit" class="Fahrenheit" placeholder="Fahrenheit"/>
+            
+
+            <span class ="icon">&#8457</span> <br>
+          </div>
+          <button type="submit" class="convertus">Convert</button>
+        </div>
+    
+    <script src="app.js"></script>
+    
+</body>
+</html>
